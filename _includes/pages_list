@@ -2,11 +2,11 @@
 	{% if group == null or group == node.group %}
 		{% if page.url == node.url %}
 			<li>
-                <a href="{{ node.url }}/jekyll-blog" class="selected">{{node.navigationName}}</a>
+                <a href="jekyll-blog/{{ node.url }}" class="selected">{{node.navigationName}}</a>
             </li>
 		{% else %}
 			<li>
-                <a href="{{ node.url }}/jekyll-blog">{{node.navigationName}}</a>
+                <a href="jekyll-blog/{{ node.url }}/jekyll-blog">{{node.navigationName}}</a>
             </li>
 		{% endif %}
 	{% endif %}
