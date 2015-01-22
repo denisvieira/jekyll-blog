@@ -6,7 +6,7 @@
             </li>
 		{% else %}
 			<li>
-                <a href="jekyll-blog/{{ node.url }}/jekyll-blog">{{node.navigationName}}</a>
+                <a href="jekyll-blog/{{ node.url }}">{{node.navigationName}}</a>
             </li>
 		{% endif %}
 	{% endif %}
